@@ -31,3 +31,9 @@ dependencies {
         exclude group: 'com.google.android', module: 'android'
     }
 }
+
+android {
+    lintOptions {
+      warning 'InvalidPackage'
+    }
+}
